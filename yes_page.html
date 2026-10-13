@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yay! ❤️</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      color: white;
+      background: radial-gradient(
+        ellipse at center,
+        #6e173f,
+        #180514 75%
+      );
+    }
+
+    .card {
+      max-width: 500px;
+    }
+
+    .heart {
+      font-size: 90px;
+      animation: beat 0.8s infinite alternate;
+    }
+
+    h1 {
+      color: #ffb5d1;
+      font-size: 36px;
+    }
+
+    p {
+      font-size: 19px;
+      line-height: 1.7;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 13px 25px;
+      border: none;
+      border-radius: 25px;
+      background: #ff6595;
+      color: white;
+      font-size: 17px;
+    }
+
+    @keyframes beat {
+      to {
+        transform: scale(1.15);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="heart">❤️</div>
+
+    <h1>Yay! You Said Yes! 🥹</h1>
+
+    <p>
+      You just made my day special! 💖
+      <br>
+      You are someone truly special.
+      <br>
+      Sending you lots of love and happiness! 🌹
+    </p>
+
+    <button onclick="history.back()">
+      Go Back 💌
+    </button>
+  </div>
+</body>
+</html>
